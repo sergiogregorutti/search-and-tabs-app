@@ -19,6 +19,7 @@ function Header({ search, updateSearch }) {
           onChange={(e) => updateSearch(e.target.value)}
           style={{
             padding: "10px 15px",
+            fontSize: "16px",
             width: "100%",
             maxWidth: "470px",
             border: "none",
